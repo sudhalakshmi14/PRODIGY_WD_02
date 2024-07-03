@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Management System</title>
+    <style>
+  body {
+    margin: 10;
+    padding: 10;
+    font-family: Arial, sans-serif;
+background-image:url("https://www.bizportals365.com/wp-content/uploads/dms-features.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative; /* Added to position the logo relative to the container */
+}
+
+.logo img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    position: fixed; /* Position the logo absolutely */
+    top:10px; /* Adjust the distance from the top */
+    left: 10px; /* Adjust the distance from the left */
+	
+}
+
+.content {
+    padding-left: 50x; /* Adjust to provide space for the logo */
+}
+
+  .header {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+  .header h1 {
+    font-size: 48px;
+    margin-top:100px;
+    transition: transform 0.5s ease-in-out; 
+    animation: moveRight 5s ease-in-out infinite;
+  }
+
+.content p {
+  font-size: 16px;
+  line-height:2.5s;
+  color:white;
+  position: relative;
+  animation: animatesteelblueBackground 2s infinite; 
+}
+  .nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+  }
+
+  .nav a:hover {
+    border-color: red;
+  }
+
+ .button {
+    display: inline-block;
+    background-color: silver;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 50px; 
+  }
+
+  .button:hover {
+    background-color: #999;
+    color: white;
+  }
+@keyframes moveRight {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(100px); }
+    100% { transform: translateX(0); }
+  }
+@keyframes animatesteelblueBackground {
+  0% { background-color: transparent; }
+  50% { background-color: steelblue; }
+  100% { background-color: transparent; }
+}
+    </style>
+    </head>
+<body>
+    <div class="header">
+        <h1>DOCUMENT MANAGEMENT SYSTEM</h1>
+        <div class="content">
+            <p>START MANAGING YOUR DOCUMENTS TODAY!</p>
+            <div class="nav">
+                <a href="#">HOME</a>
+                <a href="login.html">LOGIN</a>
+                <a href="signin.html">SIGNIN</a>
+                <a href="LOGOUT.html">LOGOUT</a> <!-- Placeholder for logout, you might implement authentication to handle this -->
+            </div>
+            <!-- Button -->
+        </div>
+    </div>
+    <div class="container">
+        <div class="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVfYI_0av6tarPMrCLs99me2uX9wPIqIN9ClVG8rXx45fkPYbsryPkNwEXAVnUX_DRepI&usqp=CAU" alt="Logo">
+        </div>
+    </div>
+</body>
+</html>
